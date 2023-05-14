@@ -1,7 +1,10 @@
 #grad1 {
     background-image: linear-gradient(to right, #00064c, #000000);
 }
-
+.navbar-toggler-icon {
+    background-image: url('../img/hamburger.png');
+  }
+  button:focus:not(:focus-visible){outline: none;box-shadow:none ;}
 .navbar-nav .nav-link {
     color: white !important;
     font-weight: bolder;
@@ -10,10 +13,16 @@
 
 .navbar-nav .nav-item {
     padding-right: 50px;
-
 }
-
-
+@media (max-width: 991.98px) {
+    .navbar-nav .nav-item {border-top: 2px solid #fff;
+    }
+  }
+  @media (max-width: 420px) {
+    .navbar-brand .logo {width:80px;
+    }
+  }
+  
 .navbar-brand2 {
     padding-left: 50px;
 }
