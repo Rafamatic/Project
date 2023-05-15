@@ -210,7 +210,35 @@ video {
     cursor: pointer;
 }
 
+.form-group {
+   display: flex;
+    margin-bottom: 20px;
+  }
 
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 5px;
+    padding-right: 30px; /* Reserve space for the icon */
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+
+  .form-group .icon {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 16px;
+    height: 16px;
+    background-color: blue;
+    border-radius: 50%;
+  }
+
+  .form-group textarea {
+    height: auto;
+    resize: vertical;
+  }
 
 
 
