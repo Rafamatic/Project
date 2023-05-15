@@ -227,21 +227,22 @@ video {
 }
 
 .form-group {
-   display: flex;
+    display: flex;
     margin-bottom: 20px;
-  }
+}
 
-  .form-group input,
-  .form-group textarea {
+.form-group input,
+.form-group textarea {
     width: 100%;
     padding: 5px;
-    padding-right: 30px; /* Reserve space for the icon */
+    padding-right: 30px;
+    /* Reserve space for the icon */
     height: 30px;
     border-radius: 4px;
     border: 1px solid #ccc;
-  }
+}
 
-  .form-group .icon {
+.form-group .icon {
     position: absolute;
     top: 7px;
     right: 7px;
@@ -249,12 +250,12 @@ video {
     height: 16px;
     background-color: blue;
     border-radius: 50%;
-  }
+}
 
-  .form-group textarea {
+.form-group textarea {
     height: auto;
     resize: vertical;
-  }
+}
 
 
   .contact-section{background-color: #3ea1ff; padding: 100px 100px; margin: auto; border-radius: 15px;box-shadow: 15px 15px grey; scale: 0.6; margin-top: 100px;}
@@ -372,7 +373,11 @@ video {
 
 }
 
+<<<<<<< HEAD
 /* @media (max-width: 425px) {
+=======
+@media (max-width: 375px) {
+>>>>>>> dc0542fcc0798080352359e383ad81616a0c8ce0
     .pur_btn {
         top: 64%;
         left: 25%;
