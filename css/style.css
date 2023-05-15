@@ -1,10 +1,16 @@
 #grad1 {
     background-image: linear-gradient(to right, #00064c, #000000);
 }
+
 .navbar-toggler-icon {
     background-image: url('../img/hamburger.png');
-  }
-  button:focus:not(:focus-visible){outline: none;box-shadow:none ;}
+}
+
+button:focus:not(:focus-visible) {
+    outline: none;
+    box-shadow: none;
+}
+
 .navbar-nav .nav-link {
     color: white !important;
     font-weight: bolder;
@@ -14,15 +20,15 @@
 .navbar-nav .nav-item {
     padding-right: 50px;
 }
+
 @media (max-width: 991.98px) {
-    .navbar-nav .nav-item {border-top: 2px solid #fff;
+    .navbar-nav .nav-item {
+        border-top: 2px solid #fff;
     }
-  }
-  @media (max-width: 420px) {
-    .navbar-brand .logo {width:80px;
-    }
-  }
-  
+
+}
+
+
 .navbar-brand2 {
     padding-left: 50px;
 }
@@ -66,6 +72,8 @@ video {
     font-weight: bolder;
     font-size: 30px;
 }
+
+
 
 .home_row1 .col-lg-3,
 .home_row4 .col-md-6 {
@@ -124,4 +132,72 @@ video {
 
 .home_row4 h3 {
     padding-top: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .centered {
+        top: 36%;
+        left: 72%;
+    }
+
+    .home_row2 h2 {
+        font-size: 20px;
+    }
+
+    .home_row3 h3 {
+        padding-top: 150px;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .home_row3 .icons_1 img {
+        height: 50px;
+    }
+
+    .home_row4 h3 {
+        padding-top: 100px;
+        font-size: 20px;
+    }
+
+    .home_row4 h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .navbar-brand .logo {
+        width: 80px;
+    }
+
+    .home_row1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .home_row2 h1 {
+        padding-top: 20px;
+    }
+
+    .home_row3 h3 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .home_row4 h3 {
+        padding-top: 10px;
+    }
 }
