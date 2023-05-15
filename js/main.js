@@ -3,7 +3,7 @@ $(document).ready(function () {
         // Mobile-specific settings
   $('.slider').carousel({
           num: 3,
-          maxWidth: 350,
+          maxWidth: 250,
           maxHeight: 200,
           distance: 60,
           scale: 0.7,

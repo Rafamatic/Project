@@ -182,9 +182,7 @@ video {
     padding-right: 20px;
 }
 
-.home_row6 {
-    padding-top: 200px;
-}
+
 
 .home_row6 .footer_logo {
     width: 200px;
@@ -259,7 +257,15 @@ video {
   }
 
 
-
+  .contact-section{background-color: #3ea1ff; padding: 100px 100px; margin: auto; border-radius: 15px;box-shadow: 15px 15px grey; scale: 0.6; margin-top: 100px;}
+  .contact-section .form-group input{height:100px;}
+  .contact-section .form-group input::placeholder,.contact-section .form-group textarea::placeholder{text-align: right;}
+  .contact-section .form-group .form-icon{     flex: 0 0 auto;      align-self: self-start;}
+  .contact-section .form-group input:focus{outline: 0;}
+  .contact-section .form-group textarea:focus{outline: 0;}
+  .contact-section .form-group img{width: 80px; background-color: #0085fe; padding: 10px;}
+  .contact-section .contact-submit{background-color: #0086fe; color: #fff; border: none; padding: 30px 100px;}
+  
 
 
 
@@ -331,6 +337,7 @@ video {
 }
 
 @media (max-width: 425px) {
+    
     .navbar-brand .logo {
         width: 80px;
     }
@@ -361,12 +368,16 @@ video {
     .footer_links {
         padding-top: 0px;
     }
+    .contact-section{ padding: 50px 20px; margin: auto; border-radius: 15px;box-shadow: 15px 15px grey; scale: 0.6; margin-top: 100px;}
+
 }
 
-@media (max-width: 425px) {
+/* @media (max-width: 425px) {
     .pur_btn {
         top: 64%;
         left: 25%;
     }
+    
 
-}
+} */
+
