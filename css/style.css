@@ -110,6 +110,10 @@ video {
     font-weight: bolder;
 }
 
+.home_row2 .text_1 {
+    text-align: right;
+}
+
 .home_row3 {
     margin-top: 30px;
     margin-bottom: 40px;
@@ -132,6 +136,7 @@ video {
 
 .purle_col {
     position: relative;
+    text-align: right;
 }
 
 .purle_col img {
@@ -272,7 +277,7 @@ video {
 
     .pur_btn {
         top: 46%;
-        left: 18%;
+        left: 58%;
     }
 
 
@@ -286,7 +291,7 @@ video {
 
     .pur_btn {
         top: 59%;
-        left: 25%;
+        left: 45%;
     }
 }
 
@@ -303,7 +308,7 @@ video {
 
     .pur_btn {
         top: 71%;
-        left: 24%;
+        left: 30%;
         font-size: 25px;
     }
 
@@ -337,8 +342,8 @@ video {
     }
 
     .pur_btn {
-        top: 63%;
-        left: 22%;
+        top: 60%;
+        left: 36%;
     }
 
     .home_row1 {
