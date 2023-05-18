@@ -47,6 +47,8 @@ button:focus:not(:focus-visible) {
     height: 650px;
     position: relative;
     overflow: hidden;
+    border-radius: 0 0 50% 50%;
+
 }
 
 video {
@@ -95,20 +97,11 @@ video {
     padding-left: 0px
 }
 
-/* .home_row1 .col- {
-    padding-right: 0px
-} */
-
-/* .home_row1 .col-lg-9 {
-    padding-right: 0px
-} */
-
 .home_row1 .col-lg-6 {
     text-align: center;
 }
 
 .home_row1 h1 {
-    /* padding-top: 50px; */
     color: red;
     font-weight: bolder;
 }
@@ -118,7 +111,6 @@ video {
 }
 
 .home_row2 h1 {
-    /* padding-top: 100px; */
     font-weight: bolder;
     padding-bottom: 30px;
 }
@@ -176,7 +168,6 @@ video {
 }
 
 .home_row4 h3 {
-    /* padding-top: 150px; */
     padding-bottom: 30px;
 }
 
@@ -398,29 +389,6 @@ video {
     font-size: 50px;
 }
 
-
-
-
-
-
-/* .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.image {
-    width: 32%;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-.image img {
-    width: 80%;
-    height: auto;
-    display: block;
-} */
-
 /* Add animations */
 .image {
     text-align: center;
@@ -464,7 +432,7 @@ video {
 }
 
 .story_row2 {
-    margin-top: 20px;
+    margin-top: 10%;
 }
 
 .story_row2 img {
@@ -486,6 +454,100 @@ video {
     font-size: 22px;
 }
 
+
+
+/* Careers */
+/* .career_hero {
+    position: relative;
+} */
+
+.career_hero img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.career_row1 {
+    position: relative;
+    z-index: 9999;
+    margin-top: -20%;
+    float: right;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 30px;
+
+    /* margin-left: 200px;
+    margin-right: 200px;
+    position: absolute;
+    top: 78%; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+}
+
+.career_row1 {
+    background-color: #f1f1f1;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.career_form_row {
+    background-image: url('../img/doted_background.png');
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: left;
+    margin-top: 5%;
+}
+
+.career_form .form-row {
+    display: flex;
+}
+
+.career_form .form-row input {
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.career_form .form-row select {
+    padding: 0px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+
+.career_form .form-row textarea {
+    padding: 20px;
+}
+
+.career_form .form-row input,
+textarea {
+    margin-bottom: 50px;
+}
+
+.career_form .form-row input::placeholder,
+.career_form .form-row textarea::placeholder,
+.career_form .form-row option::placeholder,
+.career_form .form-row textarea::placeholder {
+    text-align: right;
+}
+
+
+.form-buttons-row {
+    align-items: self-start;
+}
+
+.form-buttons-col {
+    display: inline-grid;
+}
+
+.career_button {
+    background-color: #0086fe;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
 
 @media (min-width: 1441px) and (max-width: 1920px) {
     .centered {
@@ -562,8 +624,21 @@ video {
 
 }
 
+.games_row2 div p {
+    font-size: 25px;
+    text-align: right;
+    padding: 0px 10%;
+}
+
 
 @media only screen and (max-width: 768px) {
+
+    .games_row2 div p {
+        font-size: 20px;
+        text-align: right;
+        padding: 0px 5%;
+    }
+
     .centered {
         top: 36%;
         left: 72%;
@@ -599,7 +674,6 @@ video {
     }
 
     .home_row3 h3 {
-        /* padding-top: 150px; */
         padding-bottom: 20px;
         font-size: 20px;
     }
@@ -609,7 +683,6 @@ video {
     }
 
     .home_row4 h3 {
-        /* padding-top: 100px; */
         font-size: 20px;
     }
 
@@ -643,9 +716,22 @@ video {
         font-size: 17px;
     }
 
+    .video-wrapper {
+        border-radius: 0 0 20% 20% !important;
+    }
+
 }
 
 @media (max-width: 425px) {
+    .video-wrapper {
+        border-radius: 0 0 0% 0% !important;
+    }
+
+    .games_row2 div p {
+        font-size: 18px;
+        text-align: right;
+        padding: 0px 5%;
+    }
 
     .navbar-brand .logo {
         width: 80px;
@@ -668,7 +754,6 @@ video {
 
 
     .home_row3 h3 {
-        /* padding-top: 20px; */
         padding-bottom: 20px;
     }
 
@@ -710,7 +795,7 @@ video {
 
     .story_text2 {
         padding-left: 50px;
-        font-size: 9px;
+        font-size: 8px;
     }
 
 }
