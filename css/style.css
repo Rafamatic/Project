@@ -389,6 +389,13 @@ video {
     font-size: 50px;
 }
 
+.games_row2 div p {
+    font-size: 25px;
+    text-align: right;
+    padding: 0px 10%;
+}
+
+
 /* Add animations */
 .image {
     text-align: center;
@@ -457,9 +464,6 @@ video {
 
 
 /* Careers */
-/* .career_hero {
-    position: relative;
-} */
 
 .career_hero img {
     width: 100%;
@@ -549,6 +553,128 @@ textarea {
     cursor: pointer;
 }
 
+
+/* 8ball */
+
+.img-wrapper {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 50% 50%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.img-wrapper img {
+    width: 100%;
+}
+
+.ball_row1 {
+    position: relative;
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.ball_row1 .col-lg-6 {
+    padding-right: 0px;
+}
+
+.ball_text1 {
+    position: absolute;
+    top: 15%;
+    left: 61%;
+    color: black;
+    font-weight: bolder;
+    font-size: 42px;
+}
+
+.ball_row2 {
+    background-image: url('../img/8ball_bg.png');
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: left;
+    margin-bottom: 5%;
+}
+
+.ball_row2 .col-lg-3 {
+    text-align: center;
+}
+
+.ball_row2 .col-lg-9 {
+    text-align: right;
+    font-size: 30px;
+}
+
+.ball_row2 a {
+    padding-left: 3%;
+}
+
+.ball_row3 {
+    background-image: url('../img/8ball_bg.png');
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: right;
+}
+
+.ball_row4 .col-md-7 {
+    text-align: right;
+    font-size: 20px;
+}
+
+.ball_row4 .col-md-5 img {
+    padding-top: 10%;
+}
+
+.ball_row4 .col-md-7 img,
+.ball_row6 .col-md-4 img {
+    width: 25%;
+}
+
+.ball_row5 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.ball_row5 p,
+.ball_row6 p {
+    font-size: 20px;
+    text-align: right;
+}
+
+.ball_row6 {
+    background-image: url('../img/8ball_bg.png');
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.ball_row6 .col-md-4 {
+    padding-right: 0px;
+    text-align: right;
+}
+
+.ball_row6 .col-md-4 p {
+    padding-right: 15px;
+    text-align: right;
+}
+
+.ball_row7 .col-md-8 img {
+    padding-top: 10%;
+}
+
+.ball_row9 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.ball_row9 .col-lg-3 {
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
 @media (min-width: 1441px) and (max-width: 1920px) {
     .centered {
         top: 40%;
@@ -584,6 +710,15 @@ textarea {
         font-size: 40px;
         padding-left: 250px;
     }
+
+    /* 8ball */
+
+    .ball_text1 {
+        top: 10%;
+        left: 76%;
+        font-size: 45px;
+    }
+
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {
@@ -621,14 +756,28 @@ textarea {
         font-size: 30px;
     }
 
+    /* 8ball */
 
+    .ball_text1 {
+        top: 10%;
+        left: 68%;
+        font-size: 45px;
+    }
+
+    .ball_row4 .col-md-7 {
+        text-align: right;
+        font-size: 30px;
+    }
+
+    .ball_row4 .col-md-5 img {
+        padding-top: 20%;
+    }
+
+    .ball_row5 p {
+        font-size: 30px;
+    }
 }
 
-.games_row2 div p {
-    font-size: 25px;
-    text-align: right;
-    padding: 0px 10%;
-}
 
 
 @media only screen and (max-width: 768px) {
@@ -720,6 +869,47 @@ textarea {
         border-radius: 0 0 20% 20% !important;
     }
 
+    /* 8ball */
+
+    .img-wrapper {
+        border-radius: 0 0 20% 20% !important;
+    }
+
+    .ball_row1 img {
+        width: 300px;
+    }
+
+    .ball_text1 {
+        top: 12%;
+        left: 67%;
+        font-size: 25px;
+    }
+
+    .ball_row2 .col-md-9 {
+        text-align: right;
+        font-size: 20px;
+    }
+
+    .ball_row4 .col-md-7 {
+        font-size: 15px;
+    }
+
+    .ball_row4 .col-md-5 img {
+        padding-top: 30%;
+    }
+
+    .ball_row5 p,
+    .ball_row6 p {
+        font-size: 15px;
+    }
+
+    .ball_row6 .col-md-4 img {
+        width: 35%;
+    }
+
+    .ball_row9 .col-lg-3 img {
+        width: 25%;
+    }
 }
 
 @media (max-width: 425px) {
@@ -798,6 +988,45 @@ textarea {
         font-size: 8px;
     }
 
+    /* 8balls */
+
+    .ball_text1 {
+        top: 74%;
+        left: 40%;
+    }
+
+    .ball_row2 .col-lg-3 {
+        text-align: right;
+    }
+
+    .ball_row2 .col-lg-9 img {
+        width: 150px;
+    }
+
+    .ball_row4 .col-md-7 {
+        padding-top: 5%;
+    }
+
+    .ball_row4 .col-md-5 img {
+        padding-top: 10%;
+    }
+
+    .ball_row6 .col-md-8 img {
+        padding-top: 10%;
+    }
+
+    .ball_row6 .col-md-4 {
+        padding-top: 5%;
+    }
+
+    .ball_row6 .col-md-4 img {
+        width: 10%;
+    }
+
+    .ball_row7 .col-md-8 img {
+        padding-top: 20%;
+    }
+
 }
 
 
@@ -820,7 +1049,10 @@ textarea {
         left: 65%;
     }
 
-    /* Story */
+    /* 8balls */
 
+    .ball_text1 {
+        left: 32%;
+    }
 
 }
