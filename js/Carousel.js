@@ -197,7 +197,7 @@
             $container.height(config.maxHeight);
         }
         $container.find('ul li img').css({
-            width: "100%",
+            width: "80%",
             height: "100%"
         });
         $container.find('ul').css({
@@ -214,14 +214,14 @@
 
         $container.find('.left').css({
             position: 'absolute',
-            left: 10,
+            left: -30,
             top: '50%',
             'z-index': 9999 + $container.data('totalNum') + 1
         });
 
         $container.find('.right').css({
             position: 'absolute',
-            right: 10,
+            right: 5,
             top: '50%',
             'z-index': 9999 + $container.data('totalNum') + 1
         });
@@ -262,7 +262,7 @@
         var config;
         var totalNum;
         var $target;
-        $(this).each(function(index, target) {
+        $(this).each(function (index, target) {
             $target = $(target);
             if (typeof param === 'object' && param !== null) {
                 config = getConfig(param);
@@ -278,29 +278,29 @@
                 $target.data('totalNum', totalNum);
                 initStyle($target);
 
-                $target.find('.left').off('click').on('click', (function($target) {
-                    return function() {
+                $target.find('.left').off('click').on('click', (function ($target) {
+                    return function () {
                         scroll($target, 'left');
                     }
                 })($target));
-                $target.find('.right').off('click').on('click',(function($target) {
-                    return function() {
+                $target.find('.right').off('click').on('click', (function ($target) {
+                    return function () {
                         scroll($target, 'right');
                     }
                 })($target));
 
-                (function($target) {
+                (function ($target) {
                     var autoPlay;
                     clearInterval($target.data('auto'));
-                    if($target.data('config').autoPlay) {
-                        autoPlay = setInterval(function() {
+                    if ($target.data('config').autoPlay) {
+                        autoPlay = setInterval(function () {
                             scroll($target, 'right');
                         }, $target.data('config').showTime);
                         $target.data('auto', autoPlay);
-                        $target.find('ul').off('mouseenter').on('mouseenter', function() {
+                        $target.find('ul').off('mouseenter').on('mouseenter', function () {
                             clearInterval($target.data('auto'));
-                        }).off('mouseleave').on('mouseleave', function() {
-                            autoPlay = setInterval(function() {
+                        }).off('mouseleave').on('mouseleave', function () {
+                            autoPlay = setInterval(function () {
                                 scroll($target, 'right');
                             }, $target.data('config').showTime);
                             $target.data('auto', autoPlay);
