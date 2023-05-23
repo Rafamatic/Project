@@ -228,6 +228,7 @@ video {
 .footer p {
     padding-top: 10px;
     padding-bottom: 10px;
+    font-size: 19px;
 }
 
 .footer_links {
@@ -667,7 +668,7 @@ textarea {
 }
 
 .col_bg {
-    background-image: url(../img/8ball_sec5_bg.png);
+    background-image: url('../img/8ball_sec5_bg.png');
     background-repeat: no-repeat;
     background-position-x: right;
     background-size: contain;
@@ -710,6 +711,194 @@ textarea {
 .ball_row9 .col-lg-3 {
     padding-left: 0px;
     margin-bottom: 0px;
+}
+
+
+
+/* Hostage */
+
+.hostage_row1 {
+    margin-bottom: 0px;
+}
+
+.hostage_row1 .col-md-4 {
+    text-align: left;
+}
+
+.hostage_row1 .col-md-4 img {
+    width: 75%;
+}
+
+.hostage_row1 .col-md-8 {
+    padding-right: 0px;
+}
+
+.hostage_row2 {
+    background-image: url('../img/8ball_bg.png');
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+}
+
+.hostage_row2 .col-lg-3 {
+    padding-right: 0px;
+    text-align: right;
+}
+
+.hostage_row2 .col-lg-9 {
+    font-size: 25px;
+}
+
+.hostage_row3 .col-lg-3 {
+    display: flex;
+    align-items: end;
+}
+
+.hostage_row4 .col-md-5 {
+    font-size: 23px;
+    text-align: right;
+    padding-left: 0px;
+    margin-bottom: 10%;
+}
+
+.hostage_row4 .col-md-7 {
+    display: flex;
+    align-items: end;
+}
+
+.hostage_row4 {
+    background-image: url('../img/8ball_bg.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+.hostage_row5 {
+    background-image: url('../img/8ball_bg.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+}
+
+.hostage_row5 p {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 8%;
+}
+
+.hostage_row5 img {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.hostage_row6 {
+    margin-bottom: 5%;
+}
+
+.hostage_row6 .col-right {
+    padding-right: 0%;
+    text-align: right;
+    position: relative;
+}
+
+.hostage_row6 .col-right-text {
+    background-color: white;
+    font-size: 25px;
+    position: absolute;
+    color: black;
+    font-weight: bolder;
+    top: 0px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hostage_row6 .col-left {
+    text-align: left;
+    padding-left: 0%;
+    position: relative;
+}
+
+.hostage_row6 .col-left-text {
+    background-color: white;
+    font-size: 25px;
+    position: absolute;
+    color: black;
+    font-weight: bolder;
+    right: 65px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hostage_row7 img {
+    width: 100%;
+}
+
+.hostage_row7_col1 {
+    position: relative;
+}
+
+.hostage_row7_text1 {
+    text-align: right;
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    font-weight: bolder;
+    right: 50px;
+    top: 20px;
+}
+
+.hostage_row7_col2 {
+    position: relative;
+}
+
+.hostage_row7_text2 {
+    text-align: right;
+    font-size: 20px;
+    position: absolute;
+    color: white;
+    font-weight: bolder;
+    right: 50px;
+    top: 20px;
+}
+
+.hostage_row8 {
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.hostage_row8 h3,
+.hostage_row8 .icons_1 {
+    text-align: center;
+}
+
+.hostage_row8 h3 {
+    padding-top: 30px;
+}
+
+.hostage_row8_col2 {
+    padding-left: 0px;
+}
+
+.hostage_row8_col {
+    position: relative;
+}
+
+.hostage_row8_text {
+    position: absolute;
+    font-size: 40px;
+    position: absolute;
+    color: black;
+    font-weight: bolder;
+    right: 15%;
+    top: 3%;
+}
+
+.hostage_row8 .icons_1 img {
+    padding-left: 10px;
 }
 
 @media (min-width: 1441px) and (max-width: 1920px) {
@@ -759,6 +948,25 @@ textarea {
     .ball_row8_text {
         left: 38%;
         font-size: 45px;
+    }
+
+
+    /* Hostage */
+    .hostage_row1 .col-md-4 img {
+        width: 50%;
+    }
+
+    .hostage_row7_text1 {
+        font-size: 35px;
+    }
+
+    .hostage_row7_text2 {
+        font-size: 35px;
+    }
+
+    .hostage_row8_text {
+        right: 10%;
+        top: 5%;
     }
 
 }
@@ -827,6 +1035,31 @@ textarea {
     .ball_row8_text {
         left: 38%;
         font-size: 35px;
+    }
+
+    /* Hostage */
+
+    .hostage_row6 .col-right-text {
+        left: -10%;
+    }
+
+    .hostage_row6 .col-left-text {
+        right: 36%;
+    }
+
+
+    .hostage_row7_text1 {
+        font-size: 25px;
+        top: 30px;
+    }
+
+    .hostage_row7_text2 {
+        font-size: 25px;
+        top: 30px;
+    }
+
+    .hostage_row8_text {
+        top: 5%;
     }
 }
 
@@ -967,6 +1200,43 @@ textarea {
         left: 38%;
         font-size: 19px;
     }
+
+
+    /* Hostage */
+    .hostage_row2 .col-lg-9 {
+        font-size: 15px;
+    }
+
+    .hostage_row4 .col-md-5 {
+        font-size: 15px;
+    }
+
+    .hostage_row6 .col-right-text {
+        font-size: 15px;
+    }
+
+    .hostage_row6 .col-left-text {
+        font-size: 15px;
+    }
+
+    .hostage_row7_text1 {
+        font-size: 15px;
+        right: 40px;
+    }
+
+    .hostage_row7_text2 {
+        font-size: 15px;
+        right: 40px;
+    }
+
+    .hostage_row8_col .hostage_row8_img {
+        width: 350px;
+    }
+
+    .hostage_row8_text {
+        font-size: 35px;
+        top: 3%;
+    }
 }
 
 @media (max-width: 425px) {
@@ -1087,6 +1357,44 @@ textarea {
     .ball_row8_text {
         left: 38%;
         font-size: 10px;
+    }
+
+    /* Hostage */
+    .hostage_row1 .col-md-4 img,
+    .hostage_row2 .col-lg-3 img {
+        width: 40%;
+    }
+
+    .hostage_row2 .col-lg-9 {
+        padding-left: 0px;
+        padding-right: 2px;
+        font-size: 10px;
+    }
+
+    .hostage_row3 .col-lg-3 {
+        display: flex;
+        justify-content: end;
+    }
+
+    .hostage_row4 .col-md-5 {
+        font-size: 10px;
+    }
+
+    .hostage_row6 .col-right {
+        padding-left: 0px;
+    }
+
+    .hostage_row6 .col-right-text {
+        text-align: center;
+        right: 90px;
+    }
+
+    .hostage_row6 .col-left {
+        padding-right: 0px;
+    }
+
+    .hostage_row6 .col-left-text {
+        right: 90px;
     }
 }
 
